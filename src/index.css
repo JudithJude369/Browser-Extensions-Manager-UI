@@ -240,9 +240,16 @@ main {
   background-color: var(--Neutral-0);
 }
 
-.extensionsBtn-light:hover {
+.extensionsBtn-light:hover,
+.extensionsBtn-light:focus,
+.extensionsBtn-light:active {
   background-color: var(--Red-700);
   color: var(--Neutral-0);
+}
+
+.extensionsBtn-light.activeBtn {
+  background-color: var(--Red-700);
+  /* border: 2px solid var(--Red-700); */
 }
 
 .card-container {
@@ -339,11 +346,17 @@ main {
   color: var(--Neutral-0);
 }
 
-.extensionsBtn-dark:hover {
+.extensionsBtn-dark:hover,
+.extensionsBtn-dark:focus,
+.extensionsBtn-dark:active {
   background-color: var(--Red-700);
   color: var(--Neutral-0);
 }
 
+.extensionsBtn-dark.activeBtn {
+  background-color: var(--Red-700);
+  /* border: 2px solid var(--Red-700); */
+}
 .card-content-dark {
   border: transparent;
   background-color: var(--Neutral-800);
